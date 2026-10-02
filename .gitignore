@@ -157,6 +157,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# Python caches and bytecode in any project directory
+**/__pycache__/
+*.pyc
+*.pyo
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -216,3 +221,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node.js / frontend
+node_modules/
+**/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating system and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# VS Code local workspace state
+.vscode/
+
+# Trained model artifacts
+models/*.pkl
+models/*.pickle
+models/*.joblib
+models/*.h5
+models/*.keras
+models/*.onnx
+models/*.pt
+models/*.pth
