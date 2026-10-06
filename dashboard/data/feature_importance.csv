@@ -1,0 +1,31 @@
+Feature,Importance,Model,Rank
+lOComment,0.109496,Random Forest,1
+loc,0.086603,Random Forest,2
+i,0.068348,Random Forest,3
+uniq_Opnd,0.062989,Random Forest,4
+n,0.058226,Random Forest,5
+b,0.057614,Random Forest,6
+lOBlank,0.055446,Random Forest,7
+v,0.055101,Random Forest,8
+total_Opnd,0.045822,Random Forest,9
+d,0.045705,Random Forest,10
+total_Op,0.045323,Random Forest,11
+lOCode,0.045125,Random Forest,12
+e,0.044822,Random Forest,13
+uniq_Op,0.043154,Random Forest,14
+t,0.041305,Random Forest,15
+b,0.093296,XGBoost,1
+lOComment,0.083679,XGBoost,2
+v,0.065746,XGBoost,3
+t,0.062407,XGBoost,4
+total_Opnd,0.059554,XGBoost,5
+loc,0.056819,XGBoost,6
+iv(g),0.056666,XGBoost,7
+i,0.052014,XGBoost,8
+branchCount,0.046072,XGBoost,9
+lOCode,0.046002,XGBoost,10
+e,0.045286,XGBoost,11
+n,0.040701,XGBoost,12
+uniq_Op,0.040599,XGBoost,13
+l,0.040484,XGBoost,14
+uniq_Opnd,0.039432,XGBoost,15
